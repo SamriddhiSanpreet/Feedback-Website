@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.d-flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-items-center{
+  align-items: center;
+}
+.col-2{
+  width: 50%;
+}
+
+/* ..............................HEADER..................................  */
+
+header{
+  margin: 30px 50px;
+}
+nav ul li{
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #000;
+  padding: 0 15px;
+  margin: 0 10px;
+}
+.logo h3{
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.banner-img img{
+  width: 100%;
+}
+.banner-item h1{
+  font-size: 60px;
+  max-width: 500px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.banner-item p{
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  max-width: 500px;
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.banner-item {
+  margin: 10rem 0 0 5rem;
+}
+.theme-btn{
+  padding: 12px 18px;
+  background-color: #006cbc;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #fff;
+}
+.theme-btn a{
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.theme-btn:hover{
+  background-color: #359cf6;
+  border: 2px solid #006cbc;
+}
+.theme-btn:hover a{
+  color: #000;
+}
+
+/* ......................................  */
+
+.feedback{
+  padding: 150px 0; 
+}
+
+.feedback-title h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.feedback-inner{
+  margin-top: 7rem;
+  padding: 0 5rem;
+}
+
+.feedback-form form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.feedback-form{
+  background-color: #2847ad;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 0 8rem;
+  padding: 2rem 0;
+}
+
+.feedback-form h2{
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #f5f0f0;
+  margin-bottom: 50px;
+}
+
+.view-title h2{
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.view-inner{
+  margin: 150px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+}
+
+.no-feedback{
+  text-align: center;
+  font-size: 3rem;
+  margin: 50px 0;
+  font-family: "Lato", sans-serif;
+}
+
+.feedback-form form label{
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #f5f0f0;
+  margin-top: 1.5rem;
+}
+
+.feedback-form form .submitfun:hover{
+  background-color: #2847ad;
+}
+
+.feedback-form label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.feedback-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.rating {
+  font-size: 2rem;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ddd;
+}
+
+.star.filled {
+  color: gold;
+}
+/* ...................................  */
+
+.submitted-data {
+  padding: 20px 50px;
+  background-color: #5379f6;
+  display: inline-block;
+  margin: 10px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  max-width: 500px;
+  width: 100%; 
+  flex: 1 1 calc(50% - 40px);
+}
+
+.submitted-data p {
+  color: #fff;
+  word-wrap: break-word;
+}
