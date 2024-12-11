@@ -118,17 +118,13 @@ export default function Home() {
                 est?
               </p>
               <div className="theme-btn">
-                <a href="./Feedback.jsx">GET STARTED</a>
+                <a href="#submitfeedback" className='startedbtn'>GET STARTED</a>
               </div>
             </div>
           </div>
           <div className="col-2">
             <div className="banner-img">
-              <img
-                src="src/assets/img/3.png"
-                alt="banner-img"
-                title="banner-img"
-              />
+              <img src="src/assets/img/3.png" alt="banner-img" title="banner-img"/>
             </div>
           </div>
         </div>
@@ -136,7 +132,7 @@ export default function Home() {
 
       {/* ........................Feedback Section............................ */}
 
-      <section className="feedback">
+      <section className="feedback" id='submitfeedback'>
         <div className="feedback-title">
           <h2>PLEASE SHARE YOUR FEEDBACK</h2>
         </div>

@@ -79,6 +79,7 @@ nav ul li{
   font-family: "Lato", sans-serif;
   font-weight: 600;
   color: #fff;
+  transition: all 0.5s ease-in-out;
 }
 .theme-btn:hover{
   background-color: #359cf6;
@@ -87,11 +88,16 @@ nav ul li{
 .theme-btn:hover a{
   color: #000;
 }
+html{
+  scroll-behavior: smooth;
+}
+
 
 /* ......................................  */
 
 .feedback{
   padding: 150px 0; 
+  transition: all 0.5s ease-in-out;
 }
 
 .feedback-title h2 {
